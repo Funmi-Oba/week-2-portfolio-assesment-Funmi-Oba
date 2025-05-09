@@ -22,12 +22,16 @@ const resultView = document.querySelector('#result-view')
     resultView.innerHTML = 
     `
     <h3>Thanks for contacting us, kindly confirm your data below:</h3>
+    <br/>
     <li> First Name: ${formData.firstName}</li>
     <li> Last Name: ${formData.lastName}</li>
       <li> Email Address: ${formData.email}</li>
       <li> Your Message: ${formData.message}</li>
+      <br/>
       <p> We will sure review your message and get back to you as soon as possible via your email!</p>
   
     `
 }
+form.reset();
 form.addEventListener('submit', handleSubmit);
+

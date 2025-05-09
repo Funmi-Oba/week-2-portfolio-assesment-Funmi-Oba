@@ -86,7 +86,38 @@
     display: flex;
     flex-direction: column;
   }
+  #contact-me{
+    display: flex;
+    flex-direction: row;
+  }
+  #result{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    
+    border-radius: 10px;
+  }
   
-  li {
-    color: red;
+  #result-view h3{
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to right, #104069, #1f6fc1, #66aaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #result-view p{
+    text-align: center;
+    font-size: 25px;
+    color: #0a138d;
+    background-color: #9cbacc;
+    border-radius: 10px;
+  }
+  li{
+    text-decoration: none;
+    color: #104069;
+    font-size: 20px;
   }
