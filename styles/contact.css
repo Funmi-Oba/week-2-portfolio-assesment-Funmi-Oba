@@ -1,0 +1,92 @@
+
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   align-self: auto;
+   padding-top: 2em;
+   margin-left: 2em;
+   margin-bottom: 2em;
+   background-color: #e2e1e7;
+   border-radius: 10px;
+  }
+  
+  fieldset {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 25%;
+    align-self: center;
+  }
+  
+  legend {
+    align-self: center;
+  }
+  
+  label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+  }
+  input::placeholder{
+    color: #c2dbf5;
+  justify-self: center;
+  }
+  
+  button {
+    align-self: center;
+    
+    border: none;
+    border-radius: 15px;
+    background-color: #104069;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 3em;
+    transition: transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1559a3;
+    transform: scale(1.1);
+
+  }
+  
+  h1 {
+    align-self: center;
+    font-size: 2rem;
+    background: linear-gradient(to right, #104069, #1f6fc1, #66aaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+  }
+  textarea{
+    caret-color: black;
+    z-index: 2;
+    border-radius: 6px;
+  }
+  textarea::placeholder{
+    color: #c2dbf5;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li {
+    color: red;
+  }

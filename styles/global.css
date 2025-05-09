@@ -8,3 +8,101 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+@media (max-width: 768px) {
+  *{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+#my-logo {
+  width: 70px;
+  height: 70px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#title {
+  color: #333;
+  font-size: 12px;
+}
+#my-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  background: linear-gradient(to right, #104069, #1f6fc1, #66aaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar li a {
+  display: block;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #333;
+  align-items: center;
+}
+.divider {
+  font-size: 30px; /* Makes the | taller */
+  color: #888;
+  vertical-align: middle; /* Aligns the divider with the center of the text */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  gap: 30px;
+  background-color: #eee;
+  border-radius: 12px;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#my-pix {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
+.my-description {
+  flex: 1;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  width: 70%;
+  color: #333;
+}
+#my-desc-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 45px;
+  background: linear-gradient(to right, #104069, #1f6fc1, #66aaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+.horizontal-divider {
+  background-color: #ccc;
+  height: 2px;
+  width: 100%;
+}
