@@ -32,6 +32,6 @@ const resultView = document.querySelector('#result-view')
   
     `
 }
-form.reset();
+
 form.addEventListener('submit', handleSubmit);
 
